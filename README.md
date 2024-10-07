@@ -13,15 +13,10 @@ For more information about liscensing, including the original license of the mod
 Python packages: `matplotlib`, `numpy`, `scipy`, `sklearn`, `sys`, `time`
 
 Version Information:
-
-`python`: 3.12.6
-
-`matplotlib`: 3.9.2
-
-`numpy`: 2.1.1
-
-`scipy`: 1.14.1
-
-`sklearn`: 1.5.2
+* `python`: 3.12.6
+* `matplotlib`: 3.9.2
+* `numpy`: 2.1.1
+* `scipy`: 1.14.1
+* `sklearn`: 1.5.2
 
 The CPU dataset `cpu.mat` can be download and extracted from \[\[REDACTED\]\].
