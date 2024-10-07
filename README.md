@@ -10,7 +10,7 @@ For more information about liscensing, including the original license of the mod
 
 ### Requirements
 
-Python packages: `matplotlib`, `numpy`, `scipy`, `sklearn`, `sys`, `time`.
+Python Packages: `matplotlib`, `numpy`, `scipy`, `sklearn`, `sys`, `time`.
 
 Version Information:
 * `python`: 3.12.6
