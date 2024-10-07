@@ -2,7 +2,9 @@
 
 \[\[REDACTED\]\]
 
-The scripts provided here implement experiments from this paper. The scripts `experiment_1_limiting_kernel_convergence`, `experiment_2_ground_truth_lifetime`, `experiment_3_experimental_dataset_features`, and `experiment_4_experimental_dataset_time` are intended to be directly runnable. Running `main.py` will sequentially run all four experiments. A fixed seed is used for all four experiments and can be found or changed in `config.py` (by default, and to generate our figures, use `seed = 0`).
+The scripts provided here implement experiments from this paper. The scripts `experiment_1_limiting_kernel_convergence`, `experiment_2_ground_truth_lifetime`, `experiment_3_experimental_dataset_features`, and `experiment_4_experimental_dataset_time` are intended to be directly runnable. The file `main.py` will sequentially run all four experiments. 
+
+A fixed seed is used for all four experiments and can be found or changed in `config.py` (by default, and to generate our figures, use `seed = 0`).
 
 For more information about liscensing, including the original license of the modified code framework, see `NOTICE.md`.
 
