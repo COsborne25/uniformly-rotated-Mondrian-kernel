@@ -43,7 +43,7 @@ def experiment_2_ground_truth_lifetime():
     ax = fig.add_subplot(1, 1, 1)
     remove_chartjunk(ax)
 
-    ax.set_title('$M = %d$, $\\mathcal{D}$ = synthetic ($D = 2$, $N = N_{val} = N_{test}=%d$)' % (M, N_validation))
+    ax.set_title('$M = %d$, $\\mathcal{D}$ = synthetic ($D = 2$, $N_{train} = N_{test} = N_{val}=%d$)' % (M, N_validation))
     ax.set_xscale('log')
     ax.yaxis.grid(which='major', linestyle='dotted', lw=0.5, color='black', alpha=0.3)
     ax.set_xlabel('lifetime $\\lambda$')

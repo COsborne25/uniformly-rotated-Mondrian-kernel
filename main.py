@@ -5,6 +5,7 @@ from experiment_1_limiting_kernel_convergence import experiment_1_limiting_kerne
 from experiment_2_ground_truth_lifetime import experiment_2_ground_truth_lifetime
 from experiment_3_experimental_dataset_features import experiment_3_experimental_dataset_features
 from experiment_4_experimental_dataset_time import experiment_4_experimental_dataset_time
+from experiment_5_synthetic_dataset_lifetime import experiment_5_synthetic_dataset_lifetime
 
 if __name__ == "__main__":
     initialize_plotting()
@@ -16,4 +17,6 @@ if __name__ == "__main__":
     experiment_3_experimental_dataset_features()
     print("\nExperiment 4: experiment_CPU")
     experiment_4_experimental_dataset_time()
+    print("\nExperiment 5: experiment_5_synthetic_dataset_lifetime")
+    experiment_5_synthetic_dataset_lifetime()
     plt.show()

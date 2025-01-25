@@ -11,7 +11,6 @@ import time
 from ucimlrepo import fetch_ucirepo 
 
 # DATA
-"""
 def load_CPU():    
     mat = scipy.io.loadmat('cpu.mat')
     X = np.transpose(mat['Xtrain']).todense()               # 6554 x 21
@@ -26,17 +25,6 @@ def load_CPU():
     y_test = y_test.flatten()
 
     return X, y, X_test, y_test
-"""
-
-def load_CPU():
-    # fetch dataset 
-    hepatitis = fetch_ucirepo(id=46) 
-    
-    # data (as pandas dataframes) 
-    X = hepatitis.data.features 
-    y = hepatitis.data.targets 
-    
-    return np.array(X[:120]), np.array(y[:120]).flatten(), np.array(X[120:]), np.array(y[120:]).flatten()
 
 def construct_data_synthetic_Laplacian(D, lifetime, noise_var, N_train, N_test):
     # pick datapoint locations uniformly at random

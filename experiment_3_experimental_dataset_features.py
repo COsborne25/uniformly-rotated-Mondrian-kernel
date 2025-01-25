@@ -14,7 +14,8 @@ lifetime_uniform_rotated = 2.5e-7
 
 def run_and_plot_experiment_convergence_testerror(X, y, X_test, y_test, M_max, lifetime, delta, num_sweeps, exact_Laplace=False):
     """ Compares approximation error of different random feature schemes (Fourier features,
-        random binning, Mondrian features, uniformly rotated Mondrian kernel) via test set error.
+        random binning, Mondrian kernel, uniformly rotated Mondrian kernel) versus the the number of
+        nonzero random features.
     """
 
     # fix random seed
