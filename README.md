@@ -1,6 +1,6 @@
 # The Uniformly Rotated Mondrian Kernel
-
-Calvin Osborne and Eliza O'Reilly
+### Calvin Osborne and Eliza O'Reilly
+### 28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025)
 
 The scripts provided here implement experiments from this paper. The scripts `experiment_1_limiting_kernel_convergence`, `experiment_2_ground_truth_lifetime`, `experiment_3_experimental_dataset_features`,  `experiment_4_experimental_dataset_time`, and `experiment_5_synthetic_dataset_lifetime` are intended to be directly runnable. The file `main.py` will sequentially run all five experiments. 
 
